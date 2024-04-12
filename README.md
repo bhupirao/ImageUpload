@@ -16,7 +16,13 @@ This project is a simple image upload application built using Laravel. Users can
 ## Directory Structure
 <img src="DirectoryStructure.png">
 
-
+## API Endpoints
+- **GET /imageuploads**: Retrieve a list of all image uploads.
+- **POST /imageuploads/store**: Upload a new image.
+- **GET /imageuploads/create**: Get created image and details
+- **PUT /imageuploads/{imageUpload}/update**: Update details of a specific image upload.
+- **GET /imageuploads/{imageUpload}/edit**: Get Updated details of a image
+- **DELETE /imageuploads/{imageUpload}/destroy**: Delete a specific image upload.
 
 
 ## Functionality
