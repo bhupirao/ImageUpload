@@ -14,47 +14,9 @@ This project is a simple image upload application built using Laravel. Users can
 8. Serve the application: `php artisan serve`
 
 ## Directory Structure
-image-upload-project/
-│
-├── app/
-│ ├── Http/
-│ │ ├── Controllers/
-│ │ │ └── ImageUploadController.php
-│ │ └── ...
-│ ├── Models/
-│ │ └── ImageUpload.php
-│ └── ...
-│
-├── database/
-│ ├── migrations/
-│ │ └── ...
-│ └── ...
-│
-├── public/
-│ ├── css/
-│ │ └── ...
-│ ├── js/
-│ │ └── ...
-│ └── ...
-│
-├── resources/
-│ ├── views/
-│ │ ├── imageuploads/
-│ │ │ ├── create.blade.php
-│ │ │ ├── edit.blade.php
-│ │ │ └── index.blade.php
-│ │ └── ...
-│ └── ...
-│
-├── routes/
-│ └── web.php
-│
-├── storage/
-│ ├── app/
-│ ├── framework/
-│ └── ...
-│
-└── ...
+<img src="DirectoryStructure.png">
+
+
 
 
 ## Functionality
